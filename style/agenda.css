@@ -13,12 +13,8 @@ body {
 }
 
 .barra {
-  background-color: #2BB8FF;
+  background-color: aqua;
+  justify-content: space-between;
   height: 100%;
-  width: 100px;
-  align-items: center;
   flex-direction: column;
-}
-.barra_con {
-  margin-top: 50px;
 }/*# sourceMappingURL=agenda.css.map */
