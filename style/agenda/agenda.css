@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 900px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.barra {
+  background-color: #2BB8FF;
+  height: 100%;
+  width: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.barra_con {
+  margin-top: 50px;
+}
+/*# sourceMappingURL=agenda.css.map */

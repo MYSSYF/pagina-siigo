@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 900px;
+  flex-direction: row;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.barra {
+  height: 100%;
+  width: 100px;
+  background-color: #2bb8ff;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barra_con {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=agenda.920665cd.css.map */
