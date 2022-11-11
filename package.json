@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./html/cursos.html --no-cache"
+    "dev": "parcel ./html/agenda.html --no-cache"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/MYSSYF/pagina-siigo#readme",
   "dependencies": {
-    "firebase": "^9.13.0",
-    "parcel": "^2.7.0",
+    "firebase": "^9.14.0",
+    "parcel": "^2.8.0",
     "sass": "^1.56.1"
   },
   "devDependencies": {

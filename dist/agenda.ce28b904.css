@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  height: 1300px;
+  flex-direction: row;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.barra {
+  height: 100%;
+  background-color: #2bb8ff;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barra_con {
+  align-items: center;
+  margin: 50px 25px 0;
+}
+
+.contenido {
+  width: 100%;
+  background-color: #f4f4f4;
+  flex-direction: column;
+}
+
+.contenido_info1 {
+  height: 100%;
+  background-color: #261570;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+
+.contenido_info2 {
+  height: 100%;
+  background-color: #261570;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.contenido_t {
+  width: 100%;
+  height: 100px;
+}
+
+.contenido_info_sub {
+  width: 100%;
+  height: 100%;
+  margin: 30px;
+}
+
+/*# sourceMappingURL=agenda.ce28b904.css.map */

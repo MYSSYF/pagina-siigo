@@ -10,21 +10,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../style/agenda/agenda.scss">
+    <link rel="stylesheet" href="../style/agenda/agenda.css">
     
     <title>Document</title>
 </head>
 
 <body class="flex">
     <section class="barra flex">
-        <a href="#" class="barra_con">Inicio</a>
-        <a href="#" class="barra_con">Cursos</a>
-        <a href="#" class="barra_con">Catálogo</a>
-        <a href="#" class="barra_con">Agenda</a>
-        <a href="#" class="barra_con">Configuración</a>
-        <a href="#" class="barra_con">Salir</a>
+        <a href="#" class="barra_con"><img src="../img/icons/logo.png"></a>
+        <a href="#" class="barra_con flex" style="text-decoration:none" ><img src="../img/icons/inicio.png"> Inicio</a>
+        <a href="#" class="barra_con flex" style="text-decoration:none" ><img src="../img/icons/cursos.png"> Cursos</a>
+        <a href="#" class="barra_con flex" style="text-decoration:none" ><img src="../img/icons/catalogo.png"> Catálogo</a>
+        <a href="#" class="barra_con flex" style="text-decoration:none" ><img src="../img/icons/agenda.png"> Agenda</a>
+        <a href="#" class="barra_con" style="text-decoration:none" >Configuración</a>
+        <a href="#" class="barra_con" style="text-decoration:none" >Salir</a>
     </section>
-    <section class="contenido"></section>
+    <section class="contenido flex">
+        <div class="contenido_t flex"></div>
+        <div class="contenido_info1 flex">
+            <div class="contenido_info_sub flex"><img src="../img/agenda/c1.png"></div>
+            <div class="contenido_info_sub flex"><img src="../img/agenda/c2.png"></div>
+        </div>
+        <div class="contenido_info2 flex"><img src="../img/agenda/c3.png"></div>
+    </section>
 </body>
 
 </html>
