@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 1300px;
+  }
