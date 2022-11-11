@@ -2,18 +2,26 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
   }
-  
+
+html,  
 body {
     margin: 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row; 
+    background-color: #F4F4F4;
+             
+}
+
+.flex {
+  display: flex;
 }
 
 .dashboard {
+  float: left;
   width: 12%;
-  height: 100vh;
+  height: 185vh;
   background-color: #2BB8FF;
   display: flex;
   flex-direction: column;
@@ -81,4 +89,171 @@ body {
 #agenda:hover {
   background: url("../../img/icons/agenda_naranja.png") no-repeat;
 }
+
+.top {
+  display: block;
+  margin-left: 18%;
+  margin-right: 30px;
+}
+
+.main {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__search {
+  width: 80%;
+  height: 30px;
+  border: none;
+  color: #333333;
+  background-color: white;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+  padding: 10px 20px;
+  font-size: 0.9em;
+  border-radius: 20px;
+}
+
+.main__right {
+  display: flex;
+  align-items: center;
+}
+
+.main__profile {
+  margin-left: 30px;
+}
+
+.left {
+  margin-left: 7%;
+  margin-right: 20px;
+  width: 70%;
+}
+
+.left__title {
+  color: #2BB8FF;
+  font-size: 1.2em;
+}
+
+.left__img {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.classes__text {
+  display: flex;
+  align-items: center;
+  margin: 50px 0 20px;
+  justify-content: space-between;
+}
+
+.classes__text--title {
+  color: #DD7230;
+  font-weight: 600;
+}
+
+.classes__text--link {
+  color: #2BB8FF;
+}
+
+.classes__boxes {
+  display: flex;
+}
+
+.classes__box {
+  width: 35%;
+  background-color: white;
+  min-height: 295px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.classes__box-img {
+  width: 90%;
+  padding: 10px;
+}
+
+.classes__info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  align-items: flex-start;
+}
+
+.classes__info--type {
+  color: #DD7230;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.classes__info--title {
+  color: #333333;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.classes__info--subtitle {
+  color: #333333;
+  font-size: 0.9em;
+}
+
+.classes__interactions {
+  display: flex;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+#heart {
+  height: 25px;
+  width: 25px;
+  background: url("../../img/inicio/heart.png") no-repeat;
+  margin-right: 10px;
+}
+
+#heart:hover {
+  background: url("../../img/inicio/heart_full.png") no-repeat;
+}
+
+#heart2{
+  height: 25px;
+  width: 25px;
+  background: url("../../img/inicio/heart_full.png") no-repeat;
+  margin-right: 10px;
+}
+
+#mark {
+  height: 25px;
+  width: 25px;
+  background: url("../../img/inicio/mark.png") no-repeat;
+}
+
+#mark:hover {
+  background: url("../../img/inicio/mark__full.png") no-repeat;
+}
+
+.information {
+  display: flex;
+  margin-right: 30px;
+  margin-top: 50px;
+  align-items: space-between;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 20px;
+}
+
+.right__calendar {
+  height: 350px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.right__schedule {
+  width: 335px;
+}
+
 
