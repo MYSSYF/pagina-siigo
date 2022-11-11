@@ -3,11 +3,82 @@
     font-family: 'Montserrat', sans-serif;
   }
   
-  body {
+body {
     margin: 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: 1300px;
-  }
+}
+
+.dashboard {
+  width: 12%;
+  height: 100vh;
+  background-color: #2BB8FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard__logo {
+  height: 50px;
+  margin: 30px auto;
+}
+
+.dashboard__option {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+.dashboard__icon {
+  margin-right: 15px;
+}
+
+.dashboard__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+#home {
+  height: 36px;
+  width: 36px;
+  background: url("../../img/icons/inicio.png") no-repeat;
+}
+
+#home:hover {
+  background: url("../../img/icons/inicio_naranja.png") no-repeat;
+}
+
+#class {
+  height: 36px;
+  width: 36px;
+  background: url("../../img/icons/cursos.png") no-repeat;
+}
+
+#class:hover {
+  background: url("../../img/icons/cursos_naranja.png") no-repeat;
+}
+
+#catalog {
+  height: 30px;
+  width: 30px;
+  background: url("../../img/icons/catalogo.png") no-repeat;
+}
+
+#catalog:hover {
+  background: url("../../img/icons/catalogo_naranja.png") no-repeat;
+}
+
+#agenda {
+  height: 36px;
+  width: 36px;
+  background: url("../../img/icons/agenda.png") no-repeat;
+}
+
+#agenda:hover {
+  background: url("../../img/icons/agenda_naranja.png") no-repeat;
+}
+
