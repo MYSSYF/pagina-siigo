@@ -15,7 +15,7 @@
     <title>Document</title>
 </head>
 
-<body class="flex">
+<body>
     <section>
         <div class="dashboard">
             <img src="../img/icons/logo.png" alt="" class="dashboard__logo">
@@ -43,13 +43,56 @@
             </div>
         </div>
     </section>
-    <section class="contenido flex">
-        <div class="contenido_t flex"><img src="../img/agenda/c0.png"></div>
-        <div class="contenido_info1 flex">
-            <div class="contenido_info_sub flex"><img src="../img/agenda/c1.png"></div>
-            <div class="contenido_info_sub flex"><img src="../img/agenda/c2.png"></div>
+    <section class="top">
+        <div class="main">
+            <input type="text" name="" id="" class="main__search" placeholder="Buscar productos, marcas y más">
+            
+      
+            <div class="main__center">
+              <select class="filtro" id="categorias">
+                <option >Categorias</option>
+                <option >Categoria 1</option>
+                <option >Categoria 2</option>
+                <option >Categoria 3</option>
+              </select>
+          
+              <select class="filtro" id="fecha">
+                <option >Fecha</option>
+                <option >Fecha 1</option>
+                <option >Fecha 2</option>
+                <option >Fecha 3</option>
+              </select>
+          
+              <select class="filtro" id="estado">
+                <option >Estado</option>
+                <option >Estado 1</option>
+                <option >Estado 2</option>
+                <option >Estado 3</option>
+              </select>
+      
+              <button class="filtro__button"> Filtrar</button>
+          </div>
+      
+          <div class="main__right">
+            <img src="../img/inicio/notifications.png" alt="Notificaciones">
+            <img src="../img/inicio/profile.png" alt="Foto de perfil" class="main__profile">
         </div>
-        <div class="contenido_info2 flex"><img src="../img/agenda/c3.png"></div>
+      
+       
+          
+        </div>
+      </section>
+
+    <section class="contenido">
+       
+        <div class="contenido_info1">
+            <div class="contenido_info_sub"><img src="../img/agenda/c1.png"></div>
+            <div class="contenido_info_sub"><img src="../img/agenda/c2.png"></div>
+        </div>
+        <div class="contenido_info2">
+            <img src="../img/agenda/c3.png"    style="width: 100%";
+            >
+        </div>
     </section>
 </body>
 
