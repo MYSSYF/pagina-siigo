@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../style/agenda/agenda.css">
-    
-    <title>Agenda</title>
-</head>
+    <link rel="stylesheet" href="../style/perfil/perfil.css">
 
+    <title>Perfil</title>
+</head>
 <body>
     <section>
         <div class="dashboard">
@@ -43,59 +42,35 @@
             </div>
         </div>
     </section>
+
     <section class="top">
         <div class="main">
             <input type="text" name="" id="" class="main__search" placeholder="Buscar productos, marcas y más">
-            
-      
-            <div class="main__center">
-              <select class="filtro" id="categorias">
-                <option >Categorias</option>
-                <option >Categoria 1</option>
-                <option >Categoria 2</option>
-                <option >Categoria 3</option>
-              </select>
-          
-              <select class="filtro" id="fecha">
-                <option >Fecha</option>
-                <option >Fecha 1</option>
-                <option >Fecha 2</option>
-                <option >Fecha 3</option>
-              </select>
-          
-              <select class="filtro" id="estado">
-                <option >Estado</option>
-                <option >Estado 1</option>
-                <option >Estado 2</option>
-                <option >Estado 3</option>
-              </select>
-      
-              <button class="filtro__button"> Filtrar</button>
-          </div>
-      
-          <div class="main__right">
-            <img src="../img/inicio/notifications.png" alt="Notificaciones">
-            <a href="./perfil.html">
+            <div class="main__right">
+                <img src="../img/inicio/notifications.png" alt="Notificaciones">
                 <img src="../img/inicio/profile.png" alt="Foto de perfil" class="main__profile">
-            </a>
-        </div>
-      
-       
-          
-        </div>
-      </section>
-
-    <section class="contenido">
-       
-        <div class="contenido_info1">
-            <div class="contenido_info_sub"><img src="../img/agenda/c1.png"></div>
-            <div class="contenido_info_sub"><img src="../img/agenda/c2.png"></div>
-        </div>
-        <div class="contenido_info2">
-            <img src="../img/agenda/c3.png"    style="width: 100%";
-            >
+            </div>
         </div>
     </section>
-</body>
 
+    <section class="perfil">
+        <h1 class="classes__text--title">Tu Perfil</h1>
+        <div class="main__perfil">
+            <img src="../img/perfil/perfil.png" style="width: 80%;" alt="Foto de perfil">
+        </div>
+
+        <div class="things">
+            <div class="logros">
+                <h1 class="classes__text--title">Logros</h1>
+                <img src="../img/perfil/logros.png" style="width: 80%;" alt="Foto de perfil">
+            </div>
+            <div class="desafios">
+                <h1 class="classes__text--title">Desafios del día</h1>
+                <img src="../img/perfil/desafio.png" style="width: 80%;" alt="Foto de perfil">
+            </div>
+
+        </div>
+    </section>
+    
+</body>
 </html>
