@@ -137,7 +137,7 @@ body {
 
 .left__img {
   margin-top: 15px;
-  width: 100%;
+  width: 90%;
 }
 
 .classes__text {
@@ -247,13 +247,13 @@ body {
 }
 
 .right__calendar {
-  height: 350px;
+  height: 320px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
 .right__schedule {
-  width: 335px;
+  width: 305px;
 }
 
 

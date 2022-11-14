@@ -46,6 +46,12 @@ body {
     font-size: 1em;
 }
 
+.login__info--error {
+    color: #DD7230;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
 .login__input {
     border: none;
     color: #333333;
