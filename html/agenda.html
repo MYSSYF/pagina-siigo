@@ -16,17 +16,35 @@
 </head>
 
 <body class="flex">
-    <section class="barra flex">
-        <a href="#" class="barra_con"><img src="../img/icons/logo.png"></a>
-        <a href="#" class="barra_con flex" style="text-decoration:none" ><img src="../img/icons/inicio.png"> Inicio</a>
-        <a href="#" class="barra_con flex" style="text-decoration:none" ><img src="../img/icons/cursos.png"> Cursos</a>
-        <a href="#" class="barra_con flex" style="text-decoration:none" ><img src="../img/icons/catalogo.png"> Catálogo</a>
-        <a href="#" class="barra_con flex" style="text-decoration:none" ><img src="../img/icons/agenda.png"> Agenda</a>
-        <a href="#" class="barra_con" style="text-decoration:none" >Configuración</a>
-        <a href="#" class="barra_con" style="text-decoration:none" >Salir</a>
+    <section>
+        <div class="dashboard">
+            <img src="../img/icons/logo.png" alt="" class="dashboard__logo">
+            <div class="dashboard__options">
+                <div class="dashboard__option">
+                    <a href="./inicio.html" class="dashboard__link">
+                        <div class="dashboard__icon" id="home"></div>
+                    Inicio</a>
+                </div>
+                <div class="dashboard__option">
+                    <a href="./cursos.html" class="dashboard__link">
+                        <div class="dashboard__icon" id="class"></div>
+                    Cursos</a>
+                </div>
+                <div class="dashboard__option">
+                    <a href="catalogo.html" class="dashboard__link">
+                        <div class="dashboard__icon" id="catalog"></div>
+                    Catalogo</a>
+                </div>
+                <div class="dashboard__option">
+                    <a href="./agenda.html" class="dashboard__link">
+                        <div class="dashboard__icon" id="agenda"></div>
+                    Agenda</a>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="contenido flex">
-        <div class="contenido_t flex"></div>
+        <div class="contenido_t flex"><img src="../img/agenda/c0.png"></div>
         <div class="contenido_info1 flex">
             <div class="contenido_info_sub flex"><img src="../img/agenda/c1.png"></div>
             <div class="contenido_info_sub flex"><img src="../img/agenda/c2.png"></div>
