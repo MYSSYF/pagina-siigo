@@ -46,37 +46,219 @@
 
 <section class="top">
   <div class="main">
-    <input type="text" name="" id="" class="main__search" placeholder="Buscar productos, marcas y más">
+      <input type="text" name="" id="" class="main__search" placeholder="Buscar productos, marcas y más">
+      
+
+      <div class="main__center">
+        <select class="filtro" id="categorias">
+          <option >Categorias</option>
+          <option >Categoria 1</option>
+          <option >Categoria 2</option>
+          <option >Categoria 3</option>
+        </select>
+    
+        <select class="filtro" id="fecha">
+          <option >Fecha</option>
+          <option >Fecha 1</option>
+          <option >Fecha 2</option>
+          <option >Fecha 3</option>
+        </select>
+    
+        <select class="filtro" id="estado">
+          <option >Estado</option>
+          <option >Estado 1</option>
+          <option >Estado 2</option>
+          <option >Estado 3</option>
+        </select>
+
+        <button class="filtro__button"> Filtrar</button>
+    </div>
+
+    <div class="main__right">
+      <img src="../img/inicio/notifications.png" alt="Notificaciones">
+      <img src="../img/inicio/profile.png" alt="Foto de perfil" class="main__profile">
   </div>
 
-  <div class="filtros">
+ 
+    
+  </div>
+</section>
 
-    <select class="filtro" id="categorias">
-      <option >Categorias</option>
-      <option >Categoria 1</option>
-      <option >Categoria 2</option>
-      <option >Categoria 3</option>
-    </select>
+<section class="information">
+  <div class="left">
+      <div class="classes">
+          <div class="classes__text">
+              <h3 class="classes__text--title">Vistos recientemente</h3>
+          </div>
+          <div class="classes__boxes">
+              <div class="classes__box">
+                  <img src="../img/cursos/clase1.png" alt="" class="classes__box-img">
+                  <div class="classes__info">
+                      <p class="classes__info--type">Marketing Digital</p>
+                      <h4 class="classes__info--title">Ideación de estrategias</h4>
+                      <p class="classes__info--subtitle">Hace 3 días</p>
+                  </div>
+                  <div class="classes__interactions">
+                      <div id="heart"></div>
+                      <div id="mark"></div>
+                  </div>
+              </div>
+              <div class="classes__box">
+                  <img src="../img/cursos/clase2.png" alt="" class="classes__box-img">
+                  <div class="classes__info">
+                      <p class="classes__info--type">Diseño</p>
+                      <h4 class="classes__info--title">Mejora tu post</h4>
+                      <p class="classes__info--subtitle">Hace 3 días</p>
+                  </div>
+                  <div class="classes__interactions">
+                      <div id="heart"></div>
+                      <div id="mark"></div>
+                  </div>
+              </div>
+              <div class="classes__box">
+                <img src="../img/cursos/clase3.png" alt="" class="classes__box-img">
+                <div class="classes__info">
+                    <p class="classes__info--type">Redes sociales</p>
+                    <h4 class="classes__info--title">Genera más alcance</h4>
+                    <p class="classes__info--subtitle">Hace 1 día</p>
+                </div>
+                <div class="classes__interactions">
+                    <div id="heart"></div>
+                    <div id="mark"></div>
+                </div>
+            </div>
+            <div class="classes__box">
+              <img src="../img/cursos/clase4.png" alt="" class="classes__box-img">
+              <div class="classes__info">
+                  <p class="classes__info--type">Finanzas</p>
+                  <h4 class="classes__info--title">Mantente ordenado</h4>
+                  <p class="classes__info--subtitle">Hace 6 días</p>
+              </div>
+              <div class="classes__interactions">
+                  <div id="heart"></div>
+                  <div id="mark"></div>
+              </div>
+          </div>
+          </div>
+      </div>
 
-    <select class="filtro" id="fecha">
-      <option >Fecha</option>
-      <option >Fecha 1</option>
-      <option >Fecha 2</option>
-      <option >Fecha 3</option>
-    </select>
+      <div class="classes">
+        <div class="classes__text">
+            <h3 class="classes__text--title">Por ver</h3>
+        </div>
+        <div class="classes__boxes">
+          <div class="classes__box">
+              <img src="../img/cursos/clase5.png" alt="" class="classes__box-img">
+              <div class="classes__info">
+                  <p class="classes__info--type">Diseño</p>
+                  <h4 class="classes__info--title">Mejora tu post</h4>
+                  <p class="classes__info--subtitle">Hace 4 días</p>
+              </div>
+              <div class="classes__interactions">
+                  <div id="heart"></div>
+                  <div id="mark"></div>
+              </div>
+          </div>
+          <div class="classes__box">
+              <img src="../img/cursos/clase6.png" alt="" class="classes__box-img">
+              <div class="classes__info">
+                  <p class="classes__info--type">Finanzas</p>
+                  <h4 class="classes__info--title">Pásate a digital</h4>
+                  <p class="classes__info--subtitle">Hace 6 días</p>
+              </div>
+              <div class="classes__interactions">
+                  <div id="heart"></div>
+                  <div id="mark"></div>
+              </div>
+          </div>
+          <div class="classes__box">
+            <img src="../img/cursos/clase7.png" alt="" class="classes__box-img">
+            <div class="classes__info">
+                <p class="classes__info--type">Finanzas</p>
+                <h4 class="classes__info--title">Software y más</h4>
+                <p class="classes__info--subtitle">Hace 8 días</p>
+            </div>
+            <div class="classes__interactions">
+                <div id="heart"></div>
+                <div id="mark"></div>
+            </div>
+        </div>
+        <div class="classes__box">
+          <img src="../img/cursos/clase8.png" alt="" class="classes__box-img">
+          <div class="classes__info">
+              <p class="classes__info--type">Marketing</p>
+              <h4 class="classes__info--title">Alcanza más visibilidad</h4>
+              <p class="classes__info--subtitle">Hace 1 día</p>
+          </div>
+          <div class="classes__interactions">
+              <div id="heart"></div>
+              <div id="mark"></div>
+          </div>
+      </div>
+      </div>
+        </div>
 
-    <select class="filtro" id="estado">
-      <option >Estado</option>
-      <option >Estado 1</option>
-      <option >Estado 2</option>
-      <option >Estado 3</option>
-    </select>
+      <div class="classes">
+        <div class="classes__text">
+            <h3 class="classes__text--title">Mis favoritos</h3>
+        </div>
+        <div class="classes__boxes">
+          <div class="classes__box">
+              <img src="../img/cursos/clase9.png" alt="" class="classes__box-img">
+              <div class="classes__info">
+                  <p class="classes__info--type">Diseño</p>
+                  <h4 class="classes__info--title">Mejora tu post</h4>
+                  <p class="classes__info--subtitle">Hace 2 días</p>
+              </div>
+              <div class="classes__interactions">
+                  <div id="heart"></div>
+                  <div id="mark"></div>
+              </div>
+          </div>
+          <div class="classes__box">
+              <img src="../img/cursos/clase10.png" alt="" class="classes__box-img">
+              <div class="classes__info">
+                  <p class="classes__info--type">Finanzas</p>
+                  <h4 class="classes__info--title">Mantente ordenado</h4>
+                  <p class="classes__info--subtitle">Hace 6 días</p>
+              </div>
+              <div class="classes__interactions">
+                  <div id="heart"></div>
+                  <div id="mark"></div>
+              </div>
+          </div>
+          <div class="classes__box">
+            <img src="../img/cursos/clase11.png" alt="" class="classes__box-img">
+            <div class="classes__info">
+                <p class="classes__info--type">Diseño</p>
+                <h4 class="classes__info--title">Comunica con tu marca</h4>
+                <p class="classes__info--subtitle">Hace 10 días</p>
+            </div>
+            <div class="classes__interactions">
+                <div id="heart"></div>
+                <div id="mark"></div>
+            </div>
+        </div>
+        <div class="classes__box">
+          <img src="../img/cursos/clase12.png" alt="" class="classes__box-img">
+          <div class="classes__info">
+              <p class="classes__info--type">Redes sociales</p>
+              <h4 class="classes__info--title">Cuándo publicar</h4>
+              <p class="classes__info--subtitle">Hace 5 días</p>
+          </div>
+          <div class="classes__interactions">
+              <div id="heart"></div>
+              <div id="mark"></div>
+          </div>
+      </div>
+      </div>
+    </div>
+    
   </div>
 
-</section>
+  </section>
+  
 
-
-</section>
 
 
 </body>

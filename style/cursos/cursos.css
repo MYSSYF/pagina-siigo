@@ -21,7 +21,7 @@ display: flex;
 .dashboard {
 float: left;
 width: 12%;
-height: 185vh;
+height: 320vh;
 background-color: #2BB8FF;
 display: flex;
 flex-direction: column;
@@ -112,19 +112,159 @@ background: url("../../img/icons/agenda_naranja.png") no-repeat;
   color: #333333;
   background-color: white;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 0.9em;
   border-radius: 20px;
 }
 
 .filtro{
-  width: 80%;
-  height: 30px;
+  /*width: 50%;
+  height: 50px;*/
   border: none;
   color: #333333;
   background-color: white;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
-  padding: 10px 20px;
+  padding: 10px 10px;
+  font-size: 0.6em;
+  border-radius: 10px;
+  margin:3%;
+  cursor:pointer;
+}
+
+
+.main__right {
+  display: flex;
+  align-items: center;
+}
+
+.main__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filtro__button{
+  width: 180px;
+  background-color: #DD7230;
+  color: white;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+  border: none;
+  padding: 10px 10px;
+  font-size: 0.6em;
+  border-radius: 10px;
+  cursor:pointer;
+}
+
+.left {
+  margin-left: 7%;
+  margin-right: 20px;
+  
+}
+
+.left__title {
+  color: #2BB8FF;
+  font-size: 1.2em;
+}
+
+.left__img {
+  margin-top: 15px;
+  width: 90%;
+}
+
+.classes__text {
+  display: flex;
+  align-items: center;
+  margin: 50px 0 20px;
+  justify-content: space-between;
+}
+
+.classes__text--title {
+  color: #DD7230;
+  font-weight: 600;
+}
+
+.classes__text--link {
+  color: #2BB8FF;
+}
+
+.classes__boxes {
+  display: flex;
+}
+
+.classes__box {
+  width: 80%;
+  background-color: white;
+  min-height: 295px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.classes__box-img {
+  width: 90%;
+  padding: 10px;
+}
+
+.classes__info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  align-items: flex-start;
+}
+
+.classes__info--type {
+  color: #DD7230;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.classes__info--title {
+  color: #333333;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.classes__info--subtitle {
+  color: #333333;
   font-size: 0.9em;
-  border-radius: 20px;
+}
+
+.classes__interactions {
+  display: flex;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+#heart {
+  height: 25px;
+  width: 25px;
+  background: url("../../img/inicio/heart.png") no-repeat;
+  margin-right: 10px;
+}
+
+#heart:hover {
+  background: url("../../img/inicio/heart_full.png") no-repeat;
+}
+
+#heart2{
+  height: 25px;
+  width: 25px;
+  background: url("../../img/inicio/heart_full.png") no-repeat;
+  margin-right: 10px;
+}
+
+#mark {
+  height: 25px;
+  width: 25px;
+  background: url("../../img/inicio/mark.png") no-repeat;
+}
+
+#mark:hover {
+  background: url("../../img/inicio/mark__full.png") no-repeat;
+}
+
+.information {
+  display: flex;
+  margin-right: 30px;
+  align-items: space-between;
 }

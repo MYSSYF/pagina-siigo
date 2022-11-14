@@ -44,19 +44,19 @@
         <img src="../img/inicio/profile.png" alt="Foto de perfil" class="top__profile">
     </section>
 
-    <!--<section class="nocatalog" id="noCatalog">
-        <img src="../img/catalog/no_catalog.png" alt="No tienes catalogo" class="nocatalog__img">
-        <p class="nocatalog__text">Aún no has subido nada en tu catálogo</p>
-        <button class="nocatalog__button" id="newCatalog">Crear catálogo</button>
-    </section>-->
+    <section class="products" id="products">
+            <img src="../img/catalog/no_catalog.png" alt="No tienes catalogo" class="products__img">
+            <p class="products__text">Aún no has subido nada en tu catálogo</p>
+            <button class="products__button" id="newCatalog">Crear catálogo</button>
+    </section>
 
-    <section class="make">
+    <section class="make" id="createProducts">
         <form action="" id="addProductForm" class="form">
             <h2 class="form__title">Agregar un nuevo producto</h2>
 
             <label for="image" class="form__label">Foto del producto</label>
-            <button  class="form__upload">Seleccionar archivo</button>
-            <input type="file" name="image" id="image" class="form__upload--file" multiple>
+            <button  class="form__upload" id="imageUploadBtn">Seleccionar archivo</button>
+            <input type="file" name="image" id="imageInput" class="form__upload--file">
 
             <label for="name" class="form__label">Nombre del producto</label>
             <input type="text" id="name" class="form__input">
@@ -68,18 +68,19 @@
             <input type="text" name="category" id="category" class="form__input">
 
             <button class="form__button" id="submit">Agregar</button>
+            <button class="form__return" id="returnBtn">Regresar</button>
         </form>
 
         <div class="preview">
-            <div class="preview__image"">
-                <img src="#" alt="Imagen previa" class="preview__image-img">
-                <span class="preview__image-text">Imagen previa</span>
+            <div class="preview__image" id="previewContainer">
+                <img src="#" alt="Imagen previa" class="preview__image-img" id="previewImage">
+                <span class="preview__image-text" id="previewText">Imagen previa</span>
             </div>
             <div class="preview__info">
-                <h3 class="preview__title">Nombre del producto</h3>
-                <p class="preview__price">0.00</p>
+                <h3 class="preview__title" id="previewName">Nombre del producto</h3>
+                <p class="preview__price" id="previewPrice">0.00</p>
             </div>
-            <p class="preview__category">Categoría</p>
+            <p class="preview__category" id="previewCategory">Categoría</p>
         </div>
     </section>
     
