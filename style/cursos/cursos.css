@@ -1,38 +1,51 @@
-* {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    
-  }
-  
-  body {
-    margin: 0;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    height: 900px;
-  }
-  
-  .flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  .barra {
-    background-color: #2BB8FF;
-    height: 100%;
-    width: 200px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  
-  .barra_con {
-    margin-top: 50px;
-  }
-  /*# sourceMappingURL=agenda.css.map */
+*{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,  
+body {
+  margin: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+  flex-direction: row; 
+  background-color: #F4F4F4;
+           
+}
+
+.flex {
+display: flex;
+}
+
+.dashboard {
+float: left;
+width: 12%;
+height: 185vh;
+background-color: #2BB8FF;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.dashboard__logo {
+height: 50px;
+margin: 30px auto;
+}
+
+.dashboard__option {
+display: flex;
+align-items: center;
+margin: 30px;
+}
+
+.dashboard__icon {
+margin-right: 15px;
+}
+
+.dashboard__link {
+display: flex;
+align-items: center;
+text-decoration: none;
+color: white;
+}
