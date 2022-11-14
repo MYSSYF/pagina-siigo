@@ -131,7 +131,7 @@ html, body {
 }
 
 .left__img {
-  width: 100%;
+  width: 90%;
   margin-top: 15px;
 }
 
@@ -242,13 +242,13 @@ html, body {
 }
 
 .right__calendar {
-  height: 350px;
+  height: 320px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .right__schedule {
-  width: 335px;
+  width: 305px;
 }
 
 /*# sourceMappingURL=inicio.f1ecb627.css.map */

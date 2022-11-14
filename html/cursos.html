@@ -1,44 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../style/cursos/cursos.css">
-    <title>Cursos</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style/cursos/cursos.css">
+  <title>Cursos</title>
 </head>
 <section>
   <div class="dashboard">
-      <img src="../img/icons/logo.png" alt="" class="dashboard__logo">
-      <div class="dashboard__options">
-          <div class="dashboard__option">
-              <a href="./inicio.html" class="dashboard__link">
-                  <div class="dashboard__icon" id="home"></div>
-              Inicio</a>
-          </div>
-          <div class="dashboard__option">
-              <a href="./cursos.html" class="dashboard__link">
-                  <div class="dashboard__icon" id="class"></div>
-              Cursos</a>
-          </div>
-          <div class="dashboard__option">
-              <a href="#" class="dashboard__link">
-                  <div class="dashboard__icon" id="catalog"></div>
-              Catalogo</a>
-          </div>
-          <div class="dashboard__option">
-              <a href="./agenda.html" class="dashboard__link">
-                  <div class="dashboard__icon" id="agenda"></div>
-              Agenda</a>
-          </div>
+    <img src="../img/icons/logo.png" alt="" class="dashboard__logo">
+    <div class="dashboard__options">
+      <div class="dashboard__option">
+        <a href="./inicio.html" class="dashboard__link">
+          <div class="dashboard__icon" id="home"></div>
+          Inicio
+        </a>
       </div>
+      <div class="dashboard__option">
+        <a href="./cursos.html" class="dashboard__link">
+          <div class="dashboard__icon" id="class"></div>
+          Cursos
+        </a>
+      </div>
+      <div class="dashboard__option">
+        <a href="catalogo.html" class="dashboard__link">
+          <div class="dashboard__icon" id="catalog"></div>
+          Catalogo
+        </a>
+      </div>
+      <div class="dashboard__option">
+        <a href="./agenda.html" class="dashboard__link">
+          <div class="dashboard__icon" id="agenda"></div>
+          Agenda
+        </a>
+      </div>
+    </div>
   </div>
 </section>
 
-    
+<section class="top">
+  <div class="main">
+    <input type="text" name="" id="" class="main__search" placeholder="Buscar productos, marcas y más">
+  </div>
+
+  <div class="filtros">
+
+    <select class="filtro" id="categorias">
+      <option >Categorias</option>
+      <option >Categoria 1</option>
+      <option >Categoria 2</option>
+      <option >Categoria 3</option>
+    </select>
+
+    <select class="filtro" id="fecha">
+      <option >Fecha</option>
+      <option >Fecha 1</option>
+      <option >Fecha 2</option>
+      <option >Fecha 3</option>
+    </select>
+
+    <select class="filtro" id="estado">
+      <option >Estado</option>
+      <option >Estado 1</option>
+      <option >Estado 2</option>
+      <option >Estado 3</option>
+    </select>
+  </div>
+
+</section>
+
+
+</section>
+
+
 </body>
+
 </html>

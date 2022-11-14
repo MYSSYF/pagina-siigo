@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/catalogo.8aca1db3.css">
+    <title>Semiigo Catalogo</title>
+</head>
+<body>
+    <section>
+        <div class="dashboard">
+            <img src="/logo.6fa8818a.png" alt="" class="dashboard__logo">
+            <div class="dashboard__options">
+                <div class="dashboard__option">
+                    <a href="/inicio.html" class="dashboard__link">
+                        <div class="dashboard__icon" id="home"></div>
+                    Inicio</a>
+                </div>
+                <div class="dashboard__option">
+                    <a href="/cursos.html" class="dashboard__link">
+                        <div class="dashboard__icon" id="class"></div>
+                    Cursos</a>
+                </div>
+                <div class="dashboard__option">
+                    <a href="/catalogo.html" class="dashboard__link">
+                        <div class="dashboard__icon" id="catalog"></div>
+                    Catalogo</a>
+                </div>
+                <div class="dashboard__option">
+                    <a href="/agenda.html" class="dashboard__link">
+                        <div class="dashboard__icon" id="agenda"></div>
+                    Agenda</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="top">
+        <img src="/notifications.c1caa96c.png" alt="Notificaciones" class="top__notifications">
+        <img src="/profile.acc5f6fb.png" alt="Foto de perfil" class="top__profile">
+    </section>
+
+    <!--<section class="nocatalog" id="noCatalog">
+        <img src="../img/catalog/no_catalog.png" alt="No tienes catalogo" class="nocatalog__img">
+        <p class="nocatalog__text">Aún no has subido nada en tu catálogo</p>
+        <button class="nocatalog__button" id="newCatalog">Crear catálogo</button>
+    </section>-->
+
+    <section class="make">
+        <form action="" id="addProductForm" class="form">
+            <h2 class="form__title">Agregar un nuevo producto</h2>
+
+            <label for="image" class="form__label">Foto del producto</label>
+            <button class="form__upload">Seleccionar archivo</button>
+            <input type="file" name="image" id="image" class="form__upload--file" multiple="">
+
+            <label for="name" class="form__label">Nombre del producto</label>
+            <input type="text" id="name" class="form__input">
+
+            <label for="price" class="form__label">Precio del producto</label>
+            <input type="number" id="price" class="form__input">
+
+            <label for="category" class="form__label">Categoría del producto</label>
+            <input type="text" name="category" id="category" class="form__input">
+
+            <button class="form__button" id="submit">Agregar</button>
+        </form>
+
+        <div class="preview">
+            <div class="preview__image" "="">
+                <img src="#" alt="Imagen previa" class="preview__image-img">
+                <span class="preview__image-text">Imagen previa</span>
+            </div>
+            <div class="preview__info">
+                <h3 class="preview__title">Nombre del producto</h3>
+                <p class="preview__price">0.00</p>
+            </div>
+            <p class="preview__category">Categoría</p>
+        </div>
+    </section>
+    
+    <script src="/catalogo.06c7fde0.js" defer=""></script>
+</body>
+</html>
