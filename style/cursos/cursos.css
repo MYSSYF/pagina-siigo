@@ -21,7 +21,7 @@ display: flex;
 .dashboard {
 float: left;
 width: 12%;
-height: 320vh;
+height: 180vh;
 background-color: #2BB8FF;
 display: flex;
 flex-direction: column;
@@ -112,7 +112,7 @@ background: url("../../img/icons/agenda_naranja.png") no-repeat;
   color: #333333;
   background-color: white;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
-  padding: 10px 10px;
+  padding: 10px 20px;
   font-size: 0.9em;
   border-radius: 20px;
 }
@@ -120,21 +120,22 @@ background: url("../../img/icons/agenda_naranja.png") no-repeat;
 .filtro{
   /*width: 50%;
   height: 50px;*/
+
   border: none;
   color: #333333;
   background-color: white;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
-  padding: 10px 10px;
-  font-size: 0.6em;
+  padding: 10px 20px;
+  font-size: 0.8em;
   border-radius: 10px;
-  margin:3%;
+  margin:10px;
   cursor:pointer;
 }
-
 
 .main__right {
   display: flex;
   align-items: center;
+  margin-left: 20px;
 }
 
 .main__center {
@@ -143,16 +144,22 @@ background: url("../../img/icons/agenda_naranja.png") no-repeat;
   justify-content: center;
 }
 
+.main__profile {
+  margin-left: 30px;
+}
+
 .filtro__button{
-  width: 180px;
+  width: 170px;
   background-color: #DD7230;
   color: white;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
   border: none;
   padding: 10px 10px;
-  font-size: 0.6em;
+  font-size: 0.8em;
   border-radius: 10px;
   cursor:pointer;
+  margin-left: 10px;
+
 }
 
 .left {

@@ -21,7 +21,7 @@ body {
 .dashboard {
   float: left;
   width: 12%;
-  height: 238vh;
+  height: 130vh;
   background-color: #2BB8FF;
   display: flex;
   flex-direction: column;
@@ -124,6 +124,11 @@ body {
     margin-left: 30px;
   }
   
+  .main__perfil {
+    width: 100%;
+  }
+
+
   .left {
     margin-left: 7%;
     margin-right: 20px;
@@ -144,19 +149,19 @@ body {
     color: #DD7230;
     font-weight: 600;
     margin-bottom: 2%;
+    font-size: 1.2em;
   }
 
   .perfil{
-    margin-left: 15%;
-    margin-top: 2%;
-    width: 100%;
+    margin-left: 18%;
+    margin-top: 50px;
+    margin-right: 50px;
     display: block;
-    
   }
 
   .things{
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    margin-top: 2%;
+    margin-top: 60px;
   }
