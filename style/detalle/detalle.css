@@ -21,7 +21,7 @@
   .dashboard {
   float: left;
   width: 12%;
-  height: 320vh;
+  height: 400vh;
   background-color: #2BB8FF;
   display: flex;
   flex-direction: column;
